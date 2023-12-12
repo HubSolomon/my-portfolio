@@ -8,8 +8,14 @@ function TypeWriter() {
         strings: [
           "Front End Developer",
           "Back End Developer",
+          "BrainStorming",
           "Software Engineer",
           "Open Source Contributor",
+          "Ideas Harvesting",
+          "Data Control",
+          "Social Media Marketing",
+          "Project planing",
+          
         ],
         autoStart: true,
         loop: true,

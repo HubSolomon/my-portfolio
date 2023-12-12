@@ -85,7 +85,7 @@ html {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  background-color: #343e47;
+  background-color: rgba(3, 8, 41, 0.423);
 }
 
 .navbar-toggler {
@@ -524,6 +524,7 @@ html {
   padding: 0px !important;
   opacity: 0.8 !important;
   border-radius: 0px !important;
+ 
 }
 
 .btn-primary {

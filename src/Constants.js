@@ -1,49 +1,49 @@
-import AUTOMATION from "./Assets/Projects/3automation.jpg";
-import COAST from "./Assets/Projects/coast.jpg";
+import Bennisahaus from "./Assets/Projects/Bennisahaus.jpg";
+import Konet2 from "./Assets/Projects/konet2.jpg";
 import DROPSHIP from "./Assets/Projects/dropship.jpg";
-import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
-import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
+import Freedom from "./Assets/Projects/Freedom.jpg";
+import Pages from "./Assets/Projects/Pages.jpg";
 import HSP from "./Assets/Projects/hsp.png";
-import COSMOS from "./Assets/Projects/cosmos.jpg";
+import MongoDb from "./Assets/Projects/cosmos.jpg";
 import TECHSPEC from "./Assets/Projects/techspec.png";
-import TRAVELWELL from "./Assets/Projects/travelwell.png";
+import BEFIT from "./Assets/Projects/Befit.png";
 
 
 export const PROJECTS = [
   {
-    image: COSMOS,
-    name: "Micorsoft Azure Cosmos DB",
-    technologyUsed: "ReactJs, Javascript, Redux, knockout.js, Jest",
-    description: "Azure Cosmos DB is Microsoft's proprietary globally distributed, multi-model database service 'for managing data at planet-scale' Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale.",
-    url: "https://cosmos.azure.com/",
+    image: MongoDb,
+    name: "MongoDB DataBase",
+    technologyUsed: "ReactJs, Javascript, Express, Cors.js",
+    description: "writing MongoDB validation, casting and business logic boilerplate is a drag.",
+    url: "https://mongoosejs.com/docs/",
   },
   {
-    image: TRAVELWELL,
-    name: "travlwell.com",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
-    description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
-    url: "https://travlwell.com/",
+    image: BEFIT,
+    name: "Befit.com",
+    technologyUsed: "Github, React, Express,MongoDB, Nodejs",
+    description: "Global Fitness app with BMI calculator that best suit all body types and provides videos and images that best suit a trainers muscel type.",
+    url: "https://Befit.com/",
   },
   {
-    image: COAST,
-    name: "Coast",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
-    url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
+    image: Konet2,
+    name: "Konet2.com",
+    technologyUsed: "Vuejs, Javascript, PhP ,Flatter",
+    description: "Konet2 Service Company provides a platform that allows skilled and experienced professionals to connect with users looking for specific services.",
+    url: "https://konet2.com/",
   },
   {
-    image: AUTOMATION,
-    name: "3automation.com (RPA)",
-    technologyUsed: "ReactJs, Typescript, Redux",
-    description: "The next-gen Robotic Process Automation (#RPA) platform for retail and telecom domains. The ultimate automation platform for your Shopify, Email, E- commerce shop",
-    url: "https://www.3automation.com/",
+    image: Bennisahaus,
+    name: "Bennisahaus.com",
+    technologyUsed : "WordPress",
+    description: " Company website which i build with wordpress and some other plugins",
+    url: "https://bennisahaus.com/",
   },
   {
-    image: GUAMEDIA,
-    name: "GuaMedia",
-    technologyUsed: "ReactNative, Javascript, Redux",
+    image: Pages,
+    name: "PagesTechSolutions",
+    technologyUsed: "WordPress",
     description: "Social media mobile app similar to Twitter for china. Social networking GUOMEDIA is an all-in-one social networking platform where users can build their own user profiles, create their own posts, Livestream broadcast and follow each other",
-    url: "https://play.google.com/store/apps/details?id=com.tiu.guo.media",
+    url: "https://www.pagestechsolutions.com/",
   },
   {
     image: TECHSPEC,
@@ -67,31 +67,39 @@ export const PROJECTS = [
     url: "",
   },
   {
-    image: GOOD_FOOD_DISCOUNTS,
-    name: "GoodFoodDiscounts",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
-    url: "",
+    image: Freedom,
+    name: "Ghana Freedom Fighters",
+    technologyUsed: "WordPress",
+    description: "It is an organaization website which i built with just Wordpress.",
+    url: "https://ghanafreedomfighters.com/",
   },
 ];
 
 export const SKILLS = [
   { name: "ReactJs", initialRating: 4 },
-  { name: "React-Native", initialRating: 4 },
+  { name: "Backend", initialRating: 4 },
   { name: "JavaScript", initialRating: 4 },
-  { name: "Redux", initialRating: 4 },
-  { name: "Shopify/Reactjs", initialRating: 4 },
+  { name: "Single Page Application (SPA)", initialRating: 4 },
+  { name: "Expressjs", initialRating: 4 },
+  { name: "DataBase (MongoDB)", initialRating: 4 },
+  { name: "SoftSkills", initialRating: 4 },
+  { name: "Shopify", initialRating: 4 },
   { name: "Nodejs", initialRating: 3 },
-  { name: "Koajs", initialRating: 3 },
+  { name: "Flatter", initialRating: 3 },
   { name: "Html", initialRating: 4 },
   { name: "CSS", initialRating: 4 },
-  { name: "Unit-Testing(Jest)", initialRating: 3 },
-  { name: "TypeScript", initialRating: 4 },
-  { name: "Graphql", initialRating: 4 },
-  { name: "Apollo", initialRating: 4 },
-  { name: "AntD | ReactStrap | Material UI", initialRating: 4 },
-  { name: "Shopify Polaris", initialRating: 4 },
+  { name: "UX/UI", initialRating: 4 },
+  { name: "TypeScript", initialRating:  4},
+  { name: "Github", initialRating: 5 },
+  { name: "WordPress", initialRating: 4 },
+  { name: "Material UI", initialRating: 4 },
+  { name: "Bootstrap", initialRating: 4 },
   { name: "Git", initialRating: 4 },
+  { name: "SCSS", initialRating: 4 },
+  { name: "DOM Manupulation", initialRating: 4 },
+  { name: "RestAPI", initialRating: 4 },
+  { name: "Project Mnagement", initialRating: 4 },
+  { name: "Practical Development", initialRating: 4 },
 ];
 
-export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Atom", "Sublime Text", "Linux", "Heroku", "Postman"]
+export const TOOLS = ["Visual Studio Code", "Git","Github", "Andriod Studio","Flutter Dev", "Chrome DevTools", "Npm (Node Package Manager)", "AnyDesk", "Sublime Text", "Linux", "Mac IOS", "Postman"]

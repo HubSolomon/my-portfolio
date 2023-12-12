@@ -36,8 +36,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="http://www.logicstime.com/" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Logicstime.com
+        <Navbar.Brand href="https://www.pagestechsolutions.com/" target="_blank">
+          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Pages@TechSolutions
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -92,7 +92,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="http://www.logicstime.com/"
+                href="https://konet2.com/"
                 target="_blank"
                 rel="noreferrer"
               >
