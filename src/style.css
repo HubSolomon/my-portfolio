@@ -790,16 +790,16 @@ html {
   font-weight: bold;
 }
 .profile-pic {
-  border-radius: 50%;
+  border-radius: 50;
   height: 70%;
-  width: 65%;
-  margin-top: 12%;
+  width: 80%;
+  margin-top: 15%;
   margin-left: 25%;
+  
 }
 
 @media (max-width: 767px) {
   .profile-pic {
-    border-radius: 50%;
     height: 80%;
     width: 50%;
     margin-top: 12%;
