@@ -12,20 +12,20 @@ function Home() {
           <Row>
             <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Akwaaba!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> Solomon Adjei</strong>
               </h1>
 
               <p className="heading-description blockquote">
                 I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With less than 2 years of
+                to create awesome user experiences. With two years of
                 experience developing web applications using the latest
                 front-end and back-end technologies.
               </p>
@@ -48,8 +48,7 @@ function Home() {
               <h1>Get in Touch</h1>
               <p>
                 {" "}
-                Do you have any questions? Write me an e-mail or give me a call right away. 
-                If you would like a callback, use the contact form and tell me the best time to reach you.I will call you back.
+                For more information or questions? Write me an e-mail or give me a call right away. 
                 <br />
                 <strong>Feel free to connect with me</strong>
               </p>
