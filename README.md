@@ -1,13 +1,5 @@
-<h2 align="center">
-  Portfolio Website live 
-  <a href="https://sunilyadavportfolio.netlify.app/" target="_blank">SolomonAdjei|Portfolio</a>
-</h2>
-
 
 ## Built With
-
-
-
 This project was built using these technologies.
 
 - React.js
